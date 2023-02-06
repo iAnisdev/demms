@@ -7,8 +7,8 @@ export default function Login() {
         <title>Welcome to DEMM System</title>
       </Head>
       <div className="form-signin">
-        <div class="card">
-          <div class="card-body p-4">
+        <div className="card">
+          <div className="card-body p-4">
             <form>
               <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
 
