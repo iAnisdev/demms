@@ -1,8 +1,12 @@
+import Head from "next/head";
+
 export default function Login() {
-    return (
-      <main>
-        <p>Login page</p>
-      </main>
-    )
-  }
-  
+  return (
+    <main>
+      <Head>
+        <title>Welcome to DEMM System</title>
+      </Head>
+      <p>Login page</p>
+    </main>
+  );
+}

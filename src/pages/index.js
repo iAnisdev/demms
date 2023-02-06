@@ -1,8 +1,10 @@
 export default function Home() {
-    return (
-      <main>
-        <p>Home page</p>
-      </main>
-    )
-  }
-  
+  return (
+    <main>
+      <Head>
+        <title>DEMM System Dashboard</title>
+      </Head>
+      <p>Home page</p>
+    </main>
+  );
+}
